@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع ثقة أحمد ستور</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>مرحبًا بكم في موقع ثقة أحمد ستور</h1>
+
+        <!-- نموذج رفع الصورة -->
+        <form id="uploadForm">
+            <label for="imageInput">اختيار صورة:</label>
+            <input type="file" id="imageInput" required>
+            <br>
+            <label for="imageTitle">عنوان الصورة:</label>
+            <input type="text" id="imageTitle" placeholder="أدخل عنوان الصورة" required>
+            <br>
+            <button type="submit">رفع الصورة</button>
+        </form>
+
+        <div id="imagesContainer">
+            <!-- سيتم إضافة الصور هنا -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
